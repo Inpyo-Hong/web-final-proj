@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>로그인 |롯데자이언츠</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+
+
+</head>
+
+<body>
+    <!--로그인,회원가입 바-->
+    <nav class="navbar navbar-expand-sm  navbar-dark font nav-bg">
+        <a class="navbar-brand border pl-3 pr-3 ml-15" href="login.html">로그인</a>
+        <a class="navbar-brand border pl-3 pr-3" href="signup.html">회원가입</a>
+    </nav>
+    <!--로그인,회원가입 바-->
+
+    <!--네비게이션 바-->
+    <nav class="navbar navbar-expand-sm nav-bg navbar-dark opa nav-z">
+        <div class="img">
+            <a href="main.html">
+                <img src="http://www.giantsclub.com/html/2016_new/renew_img/logo_header.png">
+            </a>
+        </div>
+        <ul class="navbar-nav nav-textbolder">
+            <li class="nav-item ml-5 dropdown">
+                <a class="nav-link text-white" href="#">소개</a>
+                <div class="dropdown-content">
+                    <a href="info.html">구단소개</a>
+                    <a href="stadium.html">구장안내</a>
+                    <a href="#">구단 BI</a>
+                    <a href="#">사회공헌</a>
+                    <a href="#">패밀리</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown nav-z">
+                <a class="nav-link text-white" href="#">경기정보</a>
+                <div class="dropdown-content">
+                    <a href="#">정규리그</a>
+                    <a href="#">퓨처스리그</a>
+                    <a href="#">날씨정보</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link text-white" href="#">기록실</a>
+                <div class="dropdown-content">
+                    <a href="#">팀기록</a>
+                    <a href="#">선수기록</a>
+                    <a href="#">조건별 기록</a>
+                    <a href="#">역대기록</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link text-white" href="#">선수단</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link text-white" href="#">이벤트</a>
+                <div class="dropdown-content">
+                    <a href="#">이벤트</a>
+                    <a href="#">설문조사</a>
+                    <a href="#">구단 BI</a>
+                    <a href="#">사회공헌</a>
+                    <a href="#">패밀리</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link text-white" href="#">팬</a>
+                <div class="dropdown-content">
+                    <a href="#">팬 게시판</a>
+                    <a href="#">팬 갤러리</a>
+                    <a href="qna.html">Q&A</a>
+                    <a href="#">응원</a>
+                    <a href="#">다운로드</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link text-white" href="#">미디어</a>
+                <div class="dropdown-content">
+                    <a href="#">공지사항</a>
+                    <a href="#">자이언츠 뉴스</a>
+                    <a href="#">자이언츠 포토</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link text-white" href="#">티켓</a>
+                <div class="dropdown-content">
+                    <a href="#">일반티켓</a>
+                    <a href="#">모바일티켓</a>
+                    <a href="#">시즌티켓</a>
+                    <a href="#">단체관람</a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+    <!--네비게이션 바-->
+
+    <!--본문 메인이미지-->
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://scontent-ssn1-1.xx.fbcdn.net/v/t1.0-9/75627401_2458939177696843_4819605385226747904_o.jpg?_nc_cat=107&_nc_sid=6e5ad9&_nc_ohc=QDWm3wWEBUoAX_FbJ0X&_nc_ht=scontent-ssn1-1.xx&oh=f921bf5eefdee1e5963741fd60315e4b&oe=5F11308C"
+                    class="d-block w-100 h-5" alt="...">
+            </div>
+        </div>
+    </div>
+    <!--본문 메인이미지-->
+
+    <!--본문 제목-->
+    <div class="contents pl-5 ">
+        <nav class="navbar navbar-expand-sm bg-white navbar-dark font">
+            <h3 style="display: inline-block;">로그인</h3>
+            <b class="ml-4"> 롯데자이언츠 로그인 입니다.</b>
+        </nav>
+        <hr style="background-color: black;">
+    </div>
+    <!--본문 제목-->
+
+    <!--로그인 폼-->
+    <img class="font display-inlineblock float-left ml-20"
+        src="https://upload.wikimedia.org/wikipedia/ko/5/56/%EB%A1%AF%EB%8D%B0_%EC%9E%90%EC%9D%B4%EC%96%B8%EC%B8%A0_%ED%8C%80_%EB%A1%9C%EA%B3%A0.png"
+        width="80em" height="80em">
+    <h4 class="font display-block float-left ml-3 mt-4">회원님 반갑습니다~</h4>
+    <p class="font display-block  float-left ml-3 mt-4">로그인을 하시면 롯데자이언츠의 다양한 이벤트참여와 혜택을 누리실 수 있습니다.</p>
+
+    <div class="container font mt-20 mb-5">
+        <form action="#" method="POST" class="mb-5">
+
+            <div class="display-inlineblock float-left">
+                <input type="text" class="mb-2 border-dark w-20 display-block" name="username" placeholder="아이디"
+                    required>
+                <input type="password" class="mb-2 border-dark w-20 display-block" name="password" placeholder="비밀번호"
+                    required>
+            </div>
+
+            <input type="submit" value="로그인" style="height: 5em; width:8em;" class="ml-2 mt-3">
+
+            <div class="display-inlineblock float-right  mb-2 " style="margin-top: -1em; margin-right:-4em;">
+                <p>아이디나 비밀번호가 기억나지 않으세요?</p>
+                <input type="button" value="아이디/비밀번호 찾으러가기">
+            </div>
+            <div class="display-inlineblock float-right" style="margin-top: -1em; margin-right:1em;">
+                <p>아직 롯데자이언츠의 회원이 아니신가요?</p>
+                <a href="signup.html">
+                    <input type="button" value="회원가입 신청">
+                </a>
+            </div>
+        </form>
+    </div>
+    </div>
+    <!--로그인 폼-->
+
+    <!--사이드바-->
+    <div class="sidenav">
+        <div class="box mt-5">
+            <a href="#about">
+                <img src="img/calander.png" width="100em" height="80em" class="png-white" style="margin-left: -8%;">
+                <span class="font-sm mx-auto pl-3 text-white font">경기일정</span>
+            </a>
+        </div>
+        <div class="box mt-1">
+            <a href="#about">
+                <img src="img/cube.png" width="80em" height="70em" class="png-white">
+                <span class="font-sm mx-auto pl-2 text-white font">스카이박스</span>
+            </a>
+        </div>
+        <div class="box mt-1">
+            <a href="#about">
+                <img src="img/g.png" width="70em" height="60em" class="png-white ml-1" style="display: block;">
+                <span class="font-sm mx-auto pl-3 text-white font">회원안내</span>
+            </a>
+        </div>
+        <div class="box mt-1">
+            <a href="#about">
+                <img src="img/child.png" width="80em" height="70em" class="png-white">
+                <span class="font-sm mx-auto pl-1 text-white font">유료회원가입</span>
+            </a>
+        </div>
+        <div class="box mt-1">
+            <a href="#about">
+                <img src="img/uniform.png" width="80em" height="70em" class="png-white">
+                <span class="font-sm mx-auto pl-3 text-white font">온라인샵</span>
+            </a>
+        </div>
+    </div>
+    <!--사이드바-->
+
+    <!--하단-->
+    <div class="footer text-white bg-darkgray">
+        <p><b>개인정보처리방침</b> | 영상정보처리기기 운영,관리 방침 | 이메일주소무단수집거부 | 이용약관</p>
+        <p>(주)롯데자이언츠 대표: 이석환 사업자등록번호:000-00-00000 부산광역시 동래구 사직로45 Tel.(051) 123-5678</p>
+    </div>
+    <!--하단-->
+</body>
+
+</html>

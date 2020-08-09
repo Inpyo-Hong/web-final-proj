@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>구장안내 |롯데자이언츠</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="css/stadium.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+
+</head>
+
+<body>
+    <!--로그인,회원가입 바-->
+    <nav class="navbar navbar-expand-sm  navbar-dark font nav-bg">
+        <a class="navbar-brand border pl-3 pr-3 ml-15" href="login.html">로그인</a>
+        <a class="navbar-brand border pl-3 pr-3" href="signup.html">회원가입</a>
+    </nav>
+    <!--로그인,회원가입 바-->
+
+
+    <!--네비게이션 바-->
+    <nav class="navbar navbar-expand-sm nav-bg navbar-dark opa nav-z">
+        <div class="img">
+            <a href="main.html">
+                <img src="http://www.giantsclub.com/html/2016_new/renew_img/logo_header.png">
+            </a>
+        </div>
+        <ul class="navbar-nav nav-textbolder">
+            <li class="nav-item ml-5 dropdown">
+                <a class="nav-link text-white" href="#">소개</a>
+                <div class="dropdown-content">
+                    <a href="info.html">구단소개</a>
+                    <a href="stadium.html">구장안내</a>
+                    <a href="#">구단 BI</a>
+                    <a href="#">사회공헌</a>
+                    <a href="#">패밀리</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown nav-z">
+                <a class="nav-link text-white" href="#">경기정보</a>
+                <div class="dropdown-content">
+                    <a href="#">정규리그</a>
+                    <a href="#">퓨처스리그</a>
+                    <a href="#">날씨정보</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link text-white" href="#">기록실</a>
+                <div class="dropdown-content">
+                    <a href="#">팀기록</a>
+                    <a href="#">선수기록</a>
+                    <a href="#">조건별 기록</a>
+                    <a href="#">역대기록</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link text-white" href="#">선수단</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link text-white" href="#">이벤트</a>
+                <div class="dropdown-content">
+                    <a href="#">이벤트</a>
+                    <a href="#">설문조사</a>
+                    <a href="#">구단 BI</a>
+                    <a href="#">사회공헌</a>
+                    <a href="#">패밀리</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link text-white" href="#">팬</a>
+                <div class="dropdown-content">
+                    <a href="#">팬 게시판</a>
+                    <a href="#">팬 갤러리</a>
+                    <a href="qna.html">Q&A</a>
+                    <a href="#">응원</a>
+                    <a href="#">다운로드</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link text-white" href="#">미디어</a>
+                <div class="dropdown-content">
+                    <a href="#">공지사항</a>
+                    <a href="#">자이언츠 뉴스</a>
+                    <a href="#">자이언츠 포토</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link text-white" href="#">티켓</a>
+                <div class="dropdown-content">
+                    <a href="#">일반티켓</a>
+                    <a href="#">모바일티켓</a>
+                    <a href="#">시즌티켓</a>
+                    <a href="#">단체관람</a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+    <!--네비게이션 바-->
+
+    <!--본문 대표이미지-->
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://scontent-ssn1-1.xx.fbcdn.net/v/t1.0-9/75627401_2458939177696843_4819605385226747904_o.jpg?_nc_cat=107&_nc_sid=6e5ad9&_nc_ohc=QDWm3wWEBUoAX_FbJ0X&_nc_ht=scontent-ssn1-1.xx&oh=f921bf5eefdee1e5963741fd60315e4b&oe=5F11308C"
+                    class="d-block w-100 h-5" alt="...">
+            </div>
+        </div>
+    </div>
+    <!--본문 대표이미지-->
+
+    <!--구장안내-->
+    <div class="contents pl-5">
+        <nav class="navbar navbar-expand-sm bg-white navbar-dark font">
+            <h3 style="display: inline-block;">구장</h3>
+            <b class="ml-4"> 롯데자이언츠의 구장 안내입니다.</b>
+        </nav>
+        <hr style="background-color: black;">
+    </div>
+    <div class="card w-60p mx-auto font">
+        <div class="card-header">
+            <b style="font-size: x-large;">소개</b>
+        </div>
+        <div class="card-body">
+            <div class="text display-inlineblock ">
+                <br>
+                <b style="font-size: x-large;">가족과 함께하는<br></b>
+                <b style="font-size: xxx-large;">사직 야구장</b>
+                <p class="card-text font-infosize">위치<br>
+                    부산광역시 동래구 사직로 45<br>
+                    종합운동장
+                </p>
+                <hr class="bg-dark">
+                <p class="card-text font-infosize">
+                    면적<br>
+                    총 면적 : 50.408㎡</p>
+                <hr class="bg-dark">
+                <p class="card-text font-infosize">
+                    시설<br>
+                    야구장 1면(천연잔디), 관람석 24,500석
+                </p>
+            </div>
+            <img src="http://www.giantsclub.com/html/_Img/intro/sj_04.gif" width="480em" height="350em"
+                class="display-inlineblock float-right mr-5">
+            <p class="card-text font-infosize display-block float-right">대한민국 부산광역시 동래구 사직동에 있는 야구장으로 1985년 10월에 완공되었으며
+                24,500석의 관람석이 있다.<br>
+                구장 크기는 좌·우 펜스까지 95m, 중앙 펜스까지 118m이고, 펜스 높이가 펜스 상단 철망을 포함해서 4.8m다.<br>
+                외형은 일본 요코하마 스타디움과 비슷하다.<br><br>
+                본래는 야구는 물론 축구나 럭비 등 다양한 종목의 경기가 함께 열릴 수 있는 다용도 종합경기장으로 지어졌다.<br>
+                그래서 내야 관중석은 가변식이었으나, 지금은 야구 경기만 치르고 있어 내야석을 이동할 일은 없다.
+            </p>
+        </div>
+        <p class="card-text font-infosize display-block float-left">
+            <b class="text-danger b-subh font-info">오시는 길</b><br>
+            * 버스 : 10, 44, 50, 57, 80, 111, 131, 189, 1002(심야)<br>
+            * 마을버스 : 17<br>
+            * 사직역 : 부산 3호선 사직역 1번 출구로 나와 아시아드대로를 따라 앞쪽으로 약 125m 직진합니다.<br>
+            이동 후 삼거리가 나오는데 우측에 있는 사직로로 방향을 틀어 자이언츠파크 앞 횡단보도까지 약 386m 직진합니다.<br>
+            횡단보도를 건넌 후 우측방향으로 약 50m 직진하면 좌측에 부산사직종합운동장 입구가 있습니다.<br>
+            * 종합운동장역 : 부산 3호선 종합운동장역(빅토리움) 11번 출구로 나와 아시아드대로를 따라 앞쪽으로 약 395m 직진합니다.<br>
+            이동 후 종합운동장 사거리가 나오는데 좌측으로 방향을 틀어 세계로병원 앞 횡단보도까지 약 174m 직진합니다.<br>
+            횡단보도를 건넌 후 우측방향으로 약 168m 직진하면 삼거리가 나옵니다.<br>
+            삼거리에서 좌측방향으로 틀어 약 217m 직진하면 좌측에 부산사직종합운동장 입구가 있습니다.<br>
+            * 경부고속도로 이용시 : 경부고속도로 - 구서I.C - 송월타올삼거리(우회전) - 사직야구장<br>
+            * 남해고속도로 이용시 : 남해고속도로 - 북부산진입 - 제2낙동교 - 만덕터널 - 반도보라아파트 - 사직야구장<br>
+            * 공항 이용시 : 구포대교방향 - 만덕터널 - 반도보라아파트 - 사직야구장(사직운동장)<br>
+        </p>
+
+    </div>
+    <!--구장안내-->
+
+    <!--사이드바-->
+    <div class="sidenav">
+        <div class="box mt-5">
+            <a href="#about">
+                <img src="img/calander.png" width="100em" height="80em" class="png-white" style="margin-left: -8%;">
+                <span class="font-sm mx-auto pl-3 text-white font">경기일정</span>
+            </a>
+        </div>
+        <div class="box mt-1">
+            <a href="#about">
+                <img src="img/cube.png" width="80em" height="70em" class="png-white">
+                <span class="font-sm mx-auto pl-2 text-white font">스카이박스</span>
+            </a>
+        </div>
+        <div class="box mt-1">
+            <a href="#about">
+                <img src="img/g.png" width="70em" height="60em" class="png-white ml-1" style="display: block;">
+                <span class="font-sm mx-auto pl-3 text-white font">회원안내</span>
+            </a>
+        </div>
+        <div class="box mt-1">
+            <a href="#about">
+                <img src="img/child.png" width="80em" height="70em" class="png-white">
+                <span class="font-sm mx-auto pl-1 text-white font">유료회원가입</span>
+            </a>
+        </div>
+        <div class="box mt-1">
+            <a href="#about">
+                <img src="img/uniform.png" width="80em" height="70em" class="png-white">
+                <span class="font-sm mx-auto pl-3 text-white font">온라인샵</span>
+            </a>
+        </div>
+
+    </div>
+    <!--사이드바-->
+
+    <!--박물관-->
+    <div class="card w-60p mx-auto font">
+        <div class="card-header">
+            <b style="font-size: x-large;">박물관</b>
+            <b class="ml-4"> 롯데자이언츠의 박물관 정보입니다.</b>
+        </div>
+        <div class="card-body">
+            <div class="text display-block">
+                <br>
+                <div class="display-inlineblock float-left">
+                    <b style="font-size: x-large;">롯데자이언츠<br></b>
+                    <b style="font-size: xxx-large;">박물관</b>
+                </div>
+                <div class="display-inlineblock float-left ml-5 mt-2">
+                    <p class="card-text font-infosize ml-5">
+                        롯데자이언츠의 역사를 알차게 담았습니다!<br>
+                        과거에서 현재까지 시대별 이야기를 감상할 수 있는<br>
+                        롯데자이언츠의 박물관입니다.
+                    </p>
+                </div>
+            </div>
+
+            <img src="http://www.giantsclub.com/html/_Img/intro/museum_01.gif" width="1000em" height="350em"
+                class="display-block mt-5"><br><br>
+            <div class="display-inlineblock float-left w-half">
+                <p class="card-text font-infosize">
+                    한국프로야구 원년 창단멤버인 롯데자이언츠의 역사를 고스란히 담은 “자이언츠<br>
+                    야구 박물관”은 2009년도 시즌 개막에 맞춰 오픈하였습니다.<br><br>
+
+                    사직구장 2층에 위치한 “자이언츠 야구 박물관”은 총 면적 496㎡(약 150평)로<br>
+                    50여명이 여유롭게 감상할수 있는 공간이며 총 400여점이 전시돼 롯데자이언츠<br>
+                    역사를 총망라하고 있습니다.<br><br>
+
+                    주요 구성으로는 거인의 영웅, 우승/준우승, 역사관, 용품관, 체험관으로 나뉘며<br>
+                    먼저 입구에 들어서게 되면 롯데자이언츠의 주요 연혁을 볼 수 있고 이어서 <br>마스코트,
+                    역대 인형, 모자 등의 상품 위주로 전시된 홍보관 코너를 접할 수 있습니다.<br><br>
+
+                    다음으로 보이는 자이언츠의 영웅 코너에서는 1984년 우승 주역이자 롯데를<br>
+                    대표하는 ‘슈퍼 에이스’ 최동원, 100완투 74 완투승의 ‘고독한 황태자’ 윤학길,<br> 롯데의
+                    근성을 상징하고 부상에도 오뚝이처럼 일어난 ‘탱크’ 박정태, 15년동안 오직 롯데
+                    유니폼을 입고 맹활약한 ‘호랑나비’ 김응국 선수의 야구용품과<br>관련사진이 전시되어
+                    있습니다.<br><br>
+
+                    이어서 우승/준우승 코너에서는 우승 2차례(1984년, 1992년)와 준우승 2차례<br>
+                    (1995년, 1999년) 당시의 유니폼, 글러브 등의 관련 역사자료를 통해 흥분과<br> 감동을
+                    생생히 전하고 있습니다.<br>
+                </p>
+            </div>
+
+            <div class="display-inlineblock float-left w-half">
+                <p class="card-text font-infosize ml-3">
+                    역사관에는 역대 골든글러브 수상자를 비롯해 올스타 선정 선수 및 역대 감독 / 선수명단이 있으며 우승 트로피, 팬북 연감 등의 사료가 전시되어 있습니다. 이 밖에도 1975년 실업
+                    롯데 창단시절 초청장과 사진도 전시되어 있습니다.<br><br>
+                    다음으로 용품관 코너로 가게 되면 롯데자이언츠 역대 유니폼 변천사를 알려주고 글러브/볼/배트의 제작 과정을 상세하게 소개합니다. 이 밖에도 각종<br> 변화구에 관한 소개와 던지는
+                    방법 등 야구에 관한 기본 상식도 알려줍니다.<br><br>
+                    용품관 안에 마련된 특별 전시 공간에는 2008 베이징 올림픽 야구 금메달<br> 관련 사료물과 2006년 트리플크라운을 달성한 이대호 선수, 프로야구 최초 <br>외국인 감독인
+                    제리 로이스터 감독 관련 용품이 전시되어 있습니다. <br>뿐만 아니라 포수장비를 쇼케이스로 꾸몄고 롯데기 아마 야구대회 관련 자료도 전시되어 있습니다.<br><br>
+                    또한 체험관에는 야구장을 축소시켜 배터박스, 덕아웃, 스탠드, 락커룸, <br>실내불펜 등이 다양하게 자리잡고 있습니다. 롯데자이언츠를 대표하는 <br>주요 선수 및 투수/포수
+                    포토월이 종류별로 마련되어 관람 중에 사진촬영도 <br>함께 즐길 수 있습니다.
+                    이 밖에도 “자이언츠 야구 박물관”의 복도 곳곳에는 롯데자이언츠의 역사를 소개하는 영상물을 쉽게 접할 수 있습니다.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!--박물관-->
+
+    <!--자이언츠샵-->
+    <div class="card w-60p mx-auto font">
+        <div class="card-header">
+            <b style="font-size: x-large;">상시 영업매장</b>
+        </div>
+        <div class="card-body">
+            <div class="text display-block ">
+                <br>
+                <b style="font-size: xxx-large;">자이언츠샵</b>
+                <p class="card-text font-infosize text-danger">ATC샵 1호점</p>
+
+                <p class="card-text font-infosize">
+                    전화번호<br>
+                    070-5106-7518</p>
+                <p class="card-text font-infosize">
+                    위치<br>
+                    사직야구장 1층 중앙출입구 오른편
+                </p><br>
+            </div>
+            <img src="http://www.giantsclub.com/html/_Img/intro/img_gshop_01001.jpg" width="1000em" height="350em"
+                class="display-inlineblock"><br><br>
+
+            <p class="card-text font-infosize text-danger">인터파크샵 광장매장</p>
+
+            <p class="card-text font-infosize">
+                전화번호<br>
+                070-4617-6160</p>
+            <p class="card-text font-infosize">
+                위치<br>
+                사직야구장 1층 원형광장 주차장 옆 컨테이너
+            </p>
+        </div>
+        <img src="http://www.giantsclub.com/html/_Img/intro/img_gshop_03001.jpg" width="1000em" height="350em"
+            class="display-inlineblock ml-3">
+    </div>
+    <!--자이언츠샵-->
+
+    <!--흡연구역 안내-->
+    <div class="card w-60p mx-auto font mt-5">
+        <div class="card-header">
+            <b style="font-size: x-large;">흡연구역</b>
+            <b class="ml-4"> 롯데자이언츠의 흡연구역 안내입니다.</b>
+        </div>
+        <div class="card-body">
+            <div class="text display-inlineblock ">
+                <br>
+                <b style="font-size: x-large;">함께 만들어가는<br></b>
+                <b style="font-size: xxx-large;">금연 사직야구장</b>
+                <p class="card-text font-infosize">
+                    야구장 내 수시 흡연단속을 실시합니다.<br>
+                    사직야구장은 금연구역으로 흡연시</p>
+                <p class="card-text font-infosize text-danger">과태료 10만원이 부과됩니다.</p>
+                <p class="card-text font-infosize">
+                    흡연시에는 흡연지정 구역을<br>
+                    이용해 주시기 바랍니다</p>
+            </div>
+            <img src="http://www.giantsclub.com/html/_Img/intro/smoking_01.jpg" width="600em" height="350em"
+                class="display-inlineblock float-right"><br><br>
+
+            <img src="img/stadium.png" width="600em" height="600em" class=" mt-5 ml-20p"><br><br>
+
+        </div>
+
+    </div>
+    <!--흡연구역 안내-->
+
+
+
+
+    <!--하단-->
+    <div class="footer text-white bg-darkgray">
+        <p><b>개인정보처리방침</b> | 영상정보처리기기 운영,관리 방침 | 이메일주소무단수집거부 | 이용약관</p>
+        <p>(주)롯데자이언츠 대표: 이석환 사업자등록번호:000-00-00000 부산광역시 동래구 사직로45 Tel.(051) 123-5678</p>
+    </div>
+    <!--하단-->
+</body>
+
+</html>
